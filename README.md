@@ -76,7 +76,7 @@ _(Replace the URL above after deploying on Streamlit Cloud)_
 
 ### 1. Clone the repository
 
-git clone https://github.com/yourusername/employee-salary-prediction.git
+git clone https://github.com/AmanBasu20/employee-salary-prediction.git
 cd employee-salary-prediction
 
 ### 2. Install the dependencies
