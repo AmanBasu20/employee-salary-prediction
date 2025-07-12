@@ -89,16 +89,16 @@ streamlit run app.py
 
 ---
 
-##📁 Project Structure
+## 📁 Project Structure
 
 employee-salary-prediction/
-###├── app.py                       # Streamlit application
-###├── employee_salary_prediction.ipynb  # Colab notebook (model training)
-###├── xgboost_salary_model.pkl     # Trained XGBoost model
-###├── salary_scaler.pkl            # StandardScaler object
-###├── requirements.txt             # Python dependencies
-###├── model_comparison.png         # Accuracy chart
-###└── README.md                    # Project documentation
+### ├── app.py                       # Streamlit application
+### ├── employee_salary_prediction.ipynb  # Colab notebook (model training)
+### ├── xgboost_salary_model.pkl     # Trained XGBoost model
+### ├── salary_scaler.pkl            # StandardScaler object
+### ├── requirements.txt             # Python dependencies
+### ├── model_comparison.png         # Accuracy chart
+### └── README.md                    # Project documentation
 
 ---
 
