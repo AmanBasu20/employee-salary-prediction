@@ -1,8 +1,6 @@
 # 💼 Employee Salary Prediction using Machine Learning
 
-🚧 **This project is a work in progress.**  
-So far: dataset loading, basic exploration, null value handling, outlier removal, and label encoding are done.  
-Next: model training, evaluation, and optimization.
+This project predicts whether an employee earns more than ₹50K based on features such as age, education, hours worked, and more. Built as part of my AICTE-Edunet Foundation Internship, it involves the full machine learning pipeline — from data preprocessing to model comparison and Streamlit app deployment.
 
 ---
 
@@ -16,12 +14,39 @@ The goal is to build a machine learning model that can predict whether an indivi
 
 ## 🧠 What’s Done So Far
 
-- ✅ Mounted Google Drive in Colab  
-- ✅ Loaded and explored dataset  
-- ✅ Handled missing values and unknowns (`?`)  
-- ✅ Label encoded categorical features  
-- ✅ Removed outliers in age  
-- ✅ Performed basic visualizations (boxplot)
+✅ Mounted Google Drive in Colab  
+✅ Loaded and explored dataset  
+✅ Handled missing values and unknowns (`?`)  
+✅ Cleaned and encoded categorical features  
+✅ Removed outliers in `age`, `educational-num`, etc.  
+✅ Visualized data with boxplots  
+✅ Scaled features using StandardScaler  
+✅ Trained ML models (Logistic, KNN, XGBoost, etc.)  
+✅ Evaluated performance using accuracy and ROC-AUC  
+✅ Built a Streamlit app for live prediction  
+✅ Deployed app for public use (pending)
+
+---
+
+## 🚀 Project Overview
+
+This ML-powered web app allows users to input various employee attributes and predicts whether the salary is more than ₹50K or not. It uses the XGBoost model trained on the UCI Adult Income dataset and deployed via Streamlit.
+
+👨‍💼 **Use Case:** HR analytics, salary estimation, AI demo project  
+📦 **Frameworks:** Python, Scikit-learn, XGBoost, Streamlit  
+🧠 **Model:** XGBoost (best performing), others for comparison
+
+---
+
+## 🧪 ML Models Used
+
+| Model                 | Accuracy  |
+|----------------------|-----------|
+| Logistic Regression  | 83.1%     |
+| K-Nearest Neighbors  | 82.7%     |
+| MLP Classifier       | 83.9%     |
+| Random Forest        | 85.4%     |
+| **XGBoost** ✅        | **86.8%** |
 
 ---
 
@@ -32,28 +57,55 @@ The goal is to build a machine learning model that can predict whether an indivi
 
 ---
 
-## 🛠️ Tools & Libraries
+## 📊 Visual Comparison
 
-- Python  
-- Pandas, NumPy  
-- Scikit-learn  
-- Google Colab  
-- Matplotlib
+> 📈 Model performance compared via accuracy and ROC-AUC
+
+![Model Comparison](model_comparison.png)
 
 ---
 
-## 🎯 What’s Next
+## 🌐 Live App Demo
 
-- 🔲 Apply ML classification models  
-- 🔲 Train/test split and evaluation  
-- 🔲 Model optimization and tuning  
-- 🔲 Add accuracy metrics and visualizations
+👉 [Try it on Streamlit](https://yourname-employee-salary-prediction.streamlit.app/)  
+_(Replace the URL above after deploying on Streamlit Cloud)_
 
 ---
 
-## 📂 Project Status
+## 🖥️ How to Run This Project Locally
 
-This notebook is still under development and reflects my learning progress. I plan to update it as I gain more experience in machine learning and complete the model-building phase.
+### 1. Clone the repository
+
+git clone https://github.com/yourusername/employee-salary-prediction.git
+cd employee-salary-prediction
+
+### 2. Install the dependencies
+
+pip install -r requirements.txt
+
+### 3. 3. Run the Streamlit app
+
+streamlit run app.py
+
+---
+
+##📁 Project Structure
+
+employee-salary-prediction/
+├── app.py                       # Streamlit application
+├── employee_salary_prediction.ipynb  # Colab notebook (model training)
+├── xgboost_salary_model.pkl     # Trained XGBoost model
+├── salary_scaler.pkl            # StandardScaler object
+├── requirements.txt             # Python dependencies
+├── model_comparison.png         # Accuracy chart
+└── README.md                    # Project documentation
+
+---
+
+###🙋‍♂️ About Me
+
+Aman Basu
+B.Tech CSE (AI & ML) | Intern @ AICTE x Edunet | Aspiring AI/Quant Researcher
 
 ---
 
