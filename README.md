@@ -24,7 +24,7 @@ The goal is to build a machine learning model that can predict whether an indivi
 ✅ Trained ML models (Logistic, KNN, XGBoost, etc.)  
 ✅ Evaluated performance using accuracy and ROC-AUC  
 ✅ Built a Streamlit app for live prediction  
-✅ Deployed app for public use (pending)
+✅ Deployed app for public use 
 
 ---
 
@@ -42,11 +42,11 @@ This ML-powered web app allows users to input various employee attributes and pr
 
 | Model                 | Accuracy  |
 |----------------------|-----------|
-| Logistic Regression  | 83.1%     |
-| K-Nearest Neighbors  | 82.7%     |
-| MLP Classifier       | 83.9%     |
-| Random Forest        | 85.4%     |
-| **XGBoost** ✅        | **86.8%** |
+| Logistic Regression  | 81.5%     |
+| K-Nearest Neighbors  | 82.3%     |
+| MLP Classifier       | 85.4%     |
+| Random Forest        | 86.1%     |
+| **XGBoost** ✅        | **87.5%** |
 
 ---
 
@@ -67,8 +67,7 @@ This ML-powered web app allows users to input various employee attributes and pr
 
 ## 🌐 Live App Demo
 
-👉 [Try it on Streamlit](https://yourname-employee-salary-prediction.streamlit.app/)  
-_(Replace the URL above after deploying on Streamlit Cloud)_
+👉 [Try it on Streamlit](https://employee-salary-prediction-amanbasu20.streamlit.app/)  
 
 ---
 
